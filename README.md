@@ -1,6 +1,5 @@
 # Alleviating Label Switching with Optimal Transport
 
-Code accompanying (put the arkiv link)
 
 ## Description
 
