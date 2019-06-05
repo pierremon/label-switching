@@ -12,6 +12,5 @@ case of multi-reference alignment.
 
 ## Code
 
-Two jupyter notebooks are provided to present our code. The first uses the Stan probabilistic
-software and therefore requires the Pystan librairy. For our SGD algorithm, we used the POT 
-librairy to compute the transport plan implied in our study.
+Two jupyter notebooks and a Stan code are provided to present our code. The first uses the Stan probabilistic
+software and therefore requires the Pystan librairy. The first time this code is used, one should compile the stan and record it in a .pkl file (code is provided). For our SGD algorithm, we used the POT librairy to compute the transport plan implied in our study.
