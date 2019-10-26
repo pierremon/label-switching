@@ -7,10 +7,9 @@ Label switching is a phenomenon arising in mixture model posterior inference tha
 
 We propose a resolution to label switching that leverages machinery from optimal transport. 
 Our algorithm efficiently computes posterior statistics in the quotient space of the 
-symmetry group. We demonstrate here the performance of our SGD algorithm, even in the
-case of multi-reference alignment.
+symmetry group. We demonstrate here the performance of our SGD algorithm..
 
 ## Code
 
-Two Jupyter notebooks and a Stan code are provided to present our code. The first uses the Stan probabilistic
+One Jupyter notebook and a Stan code are provided to present our code. The first uses the Stan probabilistic
 software and therefore requires the Pystan library. The first time this code is used, one should compile the Stan code and record it in a .pkl file (code is provided). For our SGD algorithm, we used the POT library to compute the transport plan.
