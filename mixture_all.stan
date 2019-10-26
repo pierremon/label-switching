@@ -26,7 +26,8 @@ model {
 
  for (n in 1:N){
  for (k in 1:K){
- ps[k] = log(theta[k]) + multi_normal_cholesky_lpdf(y[n] | mu[k], diag_pre_multiply(sigma[k], L[k])); //increment log probability of the gaussian
+ ps[k] = log(theta[k]) + multi_normal_cholesky_lpdf(y[n] | mu[k], diag_pre_multiply(sigma[k], L[k])); 
+ //increment log probability of the gaussian
  }
  target += log_sum_exp(ps);
  }
