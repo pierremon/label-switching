@@ -7,7 +7,7 @@ Label switching is a phenomenon arising in mixture model posterior inference tha
 
 We propose a resolution to label switching that leverages machinery from optimal transport. 
 Our algorithm efficiently computes posterior statistics in the quotient space of the 
-symmetry group. We demonstrate here the performance of our SGD algorithm..
+symmetry group. We demonstrate here the performance of our SGD algorithm.
 
 ## Code
 
